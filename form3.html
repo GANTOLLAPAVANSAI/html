@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            padding:50px;
+        }
+        div{
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+
+            <label for="Name">Name:</label>
+            <input type="text" name="name" id="Name" placeholder="Enter name">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email address" id="emial" placeholder="example@gmail.com">
+            <button type="button">Check Email</button>
+        </div>
+        <div>
+          <label for="age">Age:</label>
+          <input type="number" id="age">
+        </div>
+        <label for="country">State</label>
+        <select id="State">
+            <option value="1">Andhra Pradesh</option>
+            <option value="2">Karnataka</option>
+            <option value="3">Tamil Nadu</option>
+            <option value="4">Maharastra</option>
+            <option value="5">Telangana</option>
+        </select>
+        <div>
+            <label for="Password">Password</label>
+            <input type="password" name="password" id="Password">
+        </div>
+        <div>
+            <label for="res"Resume></label>
+            <input type="file" id="res">
+        </div>
+        <div>
+            <label>Hobbies</label>
+            <label>
+                <input type="checkbox" checked>Cricket
+            </label>
+            <label>
+                <input type="checkbox">Football
+            </label>
+            <div>
+                <label>Gender</label>
+                <label>
+                    <input type="radio" value="f" name="gender">Female
+                </label>
+                <label><input type="radio" value="m" name="gender">Male</label>
+            </div>
+            <label for="city">City</label>
+            <select name="city" id="city">
+            <option disabled selected>--Choose City</option>
+            <optgroup label="Metros">
+                <option>New Delhi</option>
+                <option>Mumbai</option>
+                <option>Chennai</option>
+                <option>Kolkatha</option>
+            </optgroup>
+            <optgroup label="Others">
+                <option>Noida</option>
+                <option>Gurgram</option>
+                <option>Faridabad</option>
+                <option>Gazibad</option>
+            </optgroup>
+        </div>
+    </select>
+    <br>
+    <br>
+    <label>Address</label>
+    <textarea cols="30" rows="10"></textarea>
+    <br>
+    <br>
+    <button type="submit" style="height:25px; width:100px; float:middle">Submit</button>
+    <button type="submit" style="height:25px; width:100px;float:middle">Reset</button>
+    </form>
+</body>
+</html>
